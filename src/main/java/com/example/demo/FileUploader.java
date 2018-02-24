@@ -43,7 +43,6 @@ public class FileUploader {
 			} catch(IOException e) {
 				log.info("保存文件失败");
 			}
-			
 			msg = "上传成功";
 			log.info(msg);
 		} else {
